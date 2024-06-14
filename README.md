@@ -43,7 +43,7 @@ Delete items from the inventory when they are no longer available.
 ```bash
 python cli.py items delete
 Item ID: 1
-Item with ID '1' deleted successfully.
+
 ```
 ### Order Management
 ## Customer Orders
