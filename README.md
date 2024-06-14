@@ -145,9 +145,3 @@ Delete a supplier from the system.
 python cli.py suppliers delete
 Supplier ID: 1
 ```
-VV
-
-
-
-
-
