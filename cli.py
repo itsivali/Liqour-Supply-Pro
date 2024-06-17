@@ -272,7 +272,7 @@ def search(keyword):
     search_items(conn, keyword)
 
 @items.command()
-@click.option('--item_id', prompt='Item ID', type=int, help='ID of the item to update.')
+@click.option('--item_id', prompt='Cloth ID', type=int, help='ID of the item to update.')
 @click.option('--name', prompt='Item name', help='Name of the item.')
 @click.option('--price', prompt='Item price', type=float, help='Price of the item.')
 def update(item_id, name, price):
